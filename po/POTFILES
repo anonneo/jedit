@@ -1,0 +1,7 @@
+data/com.github.anonneo.jedit.desktop.in
+data/com.github.anonneo.jedit.appdata.xml.in
+data/com.github.anonneo.jedit.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+
