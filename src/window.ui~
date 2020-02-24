@@ -18,14 +18,14 @@
         <property name="orientation">vertical</property>
         <child>
           <object class="GtkModelButton" id="open_file_dialog_btn">
-            <property name="width_request">250</property>
+            <property name="width_request">150</property>
             <property name="height_request">0</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="halign">start</property>
-            <property name="margin_start">10</property>
-            <property name="margin_end">10</property>
+            <property name="margin_left">10</property>
+            <property name="margin_right">10</property>
             <property name="margin_top">5</property>
             <property name="margin_bottom">5</property>
             <property name="text" translatable="yes">Open File</property>
@@ -38,32 +38,75 @@
         </child>
         <child>
           <object class="GtkModelButton" id="open_file_dialog_btn1">
-            <property name="width_request">250</property>
+            <property name="width_request">150</property>
             <property name="height_request">0</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="halign">start</property>
-            <property name="margin_start">10</property>
-            <property name="margin_end">10</property>
             <property name="margin_top">5</property>
             <property name="margin_bottom">5</property>
-            <property name="text" translatable="yes">Save File</property>
+            <property name="text" translatable="yes">Open File</property>
           </object>
           <packing>
-            <property name="expand">False</property>
+            <property name="expand">True</property>
             <property name="fill">True</property>
             <property name="position">1</property>
           </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkModelButton" id="open_file_dialog_btn2">
+            <property name="width_request">150</property>
+            <property name="height_request">0</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="halign">start</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
+            <property name="text" translatable="yes">Open File</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkModelButton" id="open_file_dialog_btn3">
+            <property name="width_request">150</property>
+            <property name="height_request">0</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="halign">start</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
+            <property name="text" translatable="yes">Open File</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">3</property>
+          </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkModelButton" id="open_file_dialog_btn4">
+            <property name="width_request">150</property>
+            <property name="height_request">0</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="halign">start</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
+            <property name="text" translatable="yes">Open File</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">4</property>
+          </packing>
         </child>
         <child>
           <placeholder/>
@@ -73,8 +116,8 @@
   </object>
   <template class="JeditWindow" parent="GtkApplicationWindow">
     <property name="can_focus">False</property>
-    <property name="default_width">900</property>
-    <property name="default_height">600</property>
+    <property name="default_width">600</property>
+    <property name="default_height">300</property>
     <child>
       <object class="GtkTextView" id="editor_view">
         <property name="visible">True</property>
@@ -105,5 +148,4 @@
       </object>
     </child>
   </template>
-  <object class="GThemedIcon" id="themedicon1"/>
 </interface>

@@ -19,8 +19,8 @@
 namespace Jedit {
 	[GtkTemplate (ui = "/com/github/anonneo/jedit/window.ui")]
 	public class Window : Gtk.ApplicationWindow {
-		[GtkChild]
-		Gtk.Label label;
+        [GtkChild]
+        Gtk.HeaderBar header_bar;
 
 		public Window (Gtk.Application app) {
 			Object (application: app);
